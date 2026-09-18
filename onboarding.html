@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Useing meta data even with a project that isnt going to be on the web is still a good practice
+     As well as setting content width
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome - Examina Lite</title>
+<!-- connecting to styles css as stylesheet -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="top">
+    <h1>Examina Lite</h1>
+</header>
+
+<!-- same nav on every page so the user dosent get lost -->
+<nav>
+    <ul>
+        <li><a href="onboarding.html">Start</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lessons.html">Lessons</a></li>
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="links.html">Useful links</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="onboard">
+        <h1>Welcome to Examina!</h1>
+        <p>Examina lite is a specialised version of
+            <a href="https://www.rangiapp.com" target="_blank">Examina </a>
+            dedicated to year 11 Biology extension.
+            <br>
+            <strong>
+                There are quality lessons, useful quizes, and accurate flashcards to make your study perfect.
+            </strong>
+        </p>
+
+        <!-- Input for the user's name using a tutorial from W3schools:  https://www.w3schools.com/css/css_form_inputs.asp-->
+        <!-- button dosent save the name yet, thats the JS iteration -->
+        <input type="text" id="fname" name="fname">
+        <button>Let's go</button>
+
+        <p><a href="index.html">Go to the homepage</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Artin Amraei</p>
+    <p>Licensed under
+       <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></p>
+</footer>
+
+</body>
+</html>

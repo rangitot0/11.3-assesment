@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz - Examina Lite</title>
+<!-- connecting to styles css as stylesheet -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="top">
+    <h1>Examina Lite</h1>
+</header>
+
+<!-- same nav on every page so the user dosent get lost -->
+<nav>
+    <ul>
+        <li><a href="onboarding.html">Start</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lessons.html">Lessons</a></li>
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="links.html">Useful links</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="quiz">
+        <h1>Quiz</h1>
+        <p>Answer in your head first, then open the answer to check. No cheating.</p>
+
+        <!-- each question is a div, the answer hides in details like the flashcards -->
+        <div class="question">
+            <h3>1. What was the atmosphere of prebiotic Earth like?</h3>
+            <p>a) Mostly oxygen, like today<br>
+               b) A reducing atmosphere with no free oxygen<br>
+               c) There was no atmosphere</p>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>b. Reducing means no free oxygen. Lesson 1.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>2. Name two energy sources on prebiotic Earth.</h3>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>Any two of volcanoes, lightning, UV from the sun. Lesson 1.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>3. What did Miller-Urey actually produce?</h3>
+            <p>a) Living cells<br>
+               b) Amino acids<br>
+               c) DNA</p>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>b. Amino acids. Not cells, not DNA. Lesson 2.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>4. What did the electrodes represent?</h3>
+            <p>a) The sun<br>
+               b) Lightning<br>
+               c) Volcanoes</p>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>b. Lightning. Lesson 2.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>5. Whats the quickest way to tell prokaryotic and eukaryotic apart?</h3>
+            <p>a) How big the cell is<br>
+               b) If it has a cell wall<br>
+               c) If the genetic material is in a membrane-bound nucleus</p>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>c. In a nucleus is eukaryotic, loose is prokaryotic. Lesson 3.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>6. Name all seven life processes.</h3>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>MRS GREN. Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion,
+                   Nutrition. Lesson 3.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>7. Why is binary fission asexual?</h3>
+            <p>a) One parent and the offspring are identical<br>
+               b) Because its fast<br>
+               c) Because it happens in the dark</p>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>a. One parent, two identical cells, no variation. Lesson 4.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>8. Why is it called EXTRAcellular digestion?</h3>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>Because the enzymes digest the food outside the cell. Lesson 4.</p>
+            </details>
+        </div>
+
+        <div class="question">
+            <h3>9. Write the word equation for anaerobic respiration in fungi.</h3>
+
+            <details> <!--Using details to hide the text-->
+                <summary>Open the answer</summary>
+                <p>glucose &rarr; ethanol + carbon dioxide (+ energy). Lesson 4.</p>
+            </details>
+        </div>
+
+        <p>Got them all? Revise with the <a href="flashcards.html">flashcards</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Artin Amraei</p>
+    <p>Licensed under
+       <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></p>
+</footer>
+
+</body>
+</html>
